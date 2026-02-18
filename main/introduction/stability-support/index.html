@@ -19,7 +19,7 @@
       
       
       <link rel="icon" href="../../pictures/eso-round-logo.svg">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
@@ -27,7 +27,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -3005,6 +3005,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../../provider/aws-access/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AWS Access
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../provider/azure-key-vault/" class="md-nav__link">
         
   
@@ -3201,34 +3229,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../provider/device42/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Device42
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../provider/google-secrets-manager/" class="md-nav__link">
         
   
@@ -3405,34 +3405,6 @@
     
   
     Yandex Lockbox
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../provider/alibaba/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Alibaba Cloud
   
 
     
@@ -4118,6 +4090,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../provider/devolutions-server/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Devolutions Server
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -4387,6 +4387,8 @@
       
         
       
+        
+      
     
     
     
@@ -4615,6 +4617,34 @@
     
   
     Burnout Prevention
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributing/llm-policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LLM Policy
   
 
     
@@ -4977,34 +5007,58 @@ As of version 0.14.x , this is the only kubernetes version that we will guarante
 </thead>
 <tbody>
 <tr>
+<td>2.0</td>
+<td>1.34</td>
+<td>Feb 06, 2026</td>
+<td>Release of next minor</td>
+</tr>
+<tr>
+<td>1.3</td>
+<td>1.34</td>
+<td>Jan 23, 2026</td>
+<td>Feb 06, 2026</td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>1.34</td>
+<td>Dec 19, 2025</td>
+<td>Jan 23, 2026</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>1.34</td>
+<td>Nov 21, 2025</td>
+<td>Dec 19, 2025</td>
+</tr>
+<tr>
 <td>1.0</td>
 <td>1.34</td>
-<td>November 7, 2025</td>
-<td>Release of 1.1</td>
+<td>Nov 7, 2025</td>
+<td>Nov 21, 2025</td>
 </tr>
 <tr>
 <td>0.20.x</td>
 <td>1.34</td>
-<td>September 22, 2025</td>
-<td>Release of 0.21</td>
+<td>Sep 22, 2025</td>
+<td>Nov 7, 2025</td>
 </tr>
 <tr>
 <td>0.19.x</td>
 <td>1.33</td>
-<td>August 2, 2025</td>
-<td>September 22, 2025</td>
+<td>Aug 2, 2025</td>
+<td>Sep 22, 2025</td>
 </tr>
 <tr>
 <td>0.18.x</td>
 <td>1.33</td>
-<td>July 17, 2025</td>
-<td>August 2, 2025</td>
+<td>Jul 17, 2025</td>
+<td>Aug 2, 2025</td>
 </tr>
 <tr>
 <td>0.17.x</td>
 <td>1.33</td>
 <td>May 14, 2025</td>
-<td>July 17, 2025</td>
+<td>Jul 17, 2025</td>
 </tr>
 <tr>
 <td>0.16.x</td>
@@ -5093,21 +5147,12 @@ As of version 0.14.x , this is the only kubernetes version that we will guarante
 </tbody>
 </table>
 <h2 id="upgrading">Upgrading</h2>
-<p>External Secrets Operator has not reached stable 1.0 yet. This means that <strong>we treat each minor version bump as a potentially breaking change</strong>. Breaking changes may include:</p>
-<ul>
-<li>API schema changes</li>
-<li>Default behavior modifications</li>
-<li>Deprecated feature removals</li>
-<li>Provider authentication changes</li>
-<li>Configuration format updates</li>
-</ul>
 <p><strong>Important upgrade recommendations:</strong></p>
 <ol>
 <li><strong>Plan your upgrades carefully</strong> - Always review release notes before upgrading, it could contain breaking changes information</li>
 <li><strong>Upgrade version by version</strong> - We strongly recommend upgrading one minor version at a time (e.g., 0.18.x → 0.19.x → 0.20.x) rather than skipping versions</li>
 <li><strong>Test in non-production first</strong> - Always validate upgrades in development/staging environments</li>
 </ol>
-<p>Until we reach v1.0, please treat minor version upgrades with the same caution you would give to major version upgrades in other projects.</p>
 <h2 id="provider-stability-and-support-level">Provider Stability and Support Level</h2>
 <p>The following table describes the stability level of each provider and who's responsible.</p>
 <table>
@@ -5163,11 +5208,6 @@ As of version 0.14.x , this is the only kubernetes version that we will guarante
 <td><a href="https://external-secrets.io/latest/provider/gitlab-variables/">GitLab Variables</a></td>
 <td style="text-align: right;">alpha</td>
 <td style="text-align: right;"><a href="https://github.com/Jabray5">@Jabray5</a></td>
-</tr>
-<tr>
-<td>Alibaba Cloud KMS</td>
-<td style="text-align: right;">alpha</td>
-<td style="text-align: right;"><strong>DEPRECATED</strong></td>
 </tr>
 <tr>
 <td><a href="https://external-secrets.io/latest/provider/oracle-vault">Oracle Vault</a></td>
@@ -5242,17 +5282,12 @@ As of version 0.14.x , this is the only kubernetes version that we will guarante
 <tr>
 <td><a href="https://external-secrets.io/latest/provider/passbolt">Passbolt</a></td>
 <td style="text-align: right;">alpha</td>
-<td style="text-align: right;"><strong>UNMAINTAINED</strong></td>
+<td style="text-align: right;"><a href="https://github.com/stripthis">@stripthis</a></td>
 </tr>
 <tr>
 <td><a href="https://external-secrets.io/latest/provider/infisical">Infisical</a></td>
 <td style="text-align: right;">alpha</td>
 <td style="text-align: right;"><a href="https://github.com/akhilmhdh">@akhilmhdh</a></td>
-</tr>
-<tr>
-<td><a href="https://external-secrets.io/latest/provider/device42">Device42</a></td>
-<td style="text-align: right;">alpha</td>
-<td style="text-align: right;"><strong>UNMAINTAINED</strong></td>
 </tr>
 <tr>
 <td><a href="https://external-secrets.io/latest/provider/bitwarden-secrets-manager">Bitwarden Secrets Manager</a></td>
@@ -5283,6 +5318,11 @@ As of version 0.14.x , this is the only kubernetes version that we will guarante
 <td><a href="https://external-secrets.io/latest/provider/barbican">Barbican</a></td>
 <td style="text-align: right;">alpha</td>
 <td style="text-align: right;"><a href="https://github.com/rkferreira">@rkferreira</a></td>
+</tr>
+<tr>
+<td><a href="https://external-secrets.io/latest/provider/devolutions-server">Devolutions Server</a></td>
+<td style="text-align: right;">alpha</td>
+<td style="text-align: right;"><a href="https://github.com/rbstp">@rbstp</a></td>
 </tr>
 </tbody>
 </table>
@@ -5386,16 +5426,6 @@ As of version 0.14.x , this is the only kubernetes version that we will guarante
 <td>GitLab Variables</td>
 <td style="text-align: center;">x</td>
 <td style="text-align: center;">x</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">x</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>Alibaba Cloud KMS</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;">x</td>
@@ -5563,16 +5593,6 @@ As of version 0.14.x , this is the only kubernetes version that we will guarante
 <td style="text-align: center;"></td>
 </tr>
 <tr>
-<td>Device42</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">x</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
 <td>Bitwarden Secrets Manager</td>
 <td style="text-align: center;">x</td>
 <td style="text-align: center;"></td>
@@ -5630,6 +5650,16 @@ As of version 0.14.x , this is the only kubernetes version that we will guarante
 <td style="text-align: center;"></td>
 <td style="text-align: center;">x</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td>Devolutions Server</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x</td>
 <td style="text-align: center;"></td>
 </tr>
 </tbody>
@@ -5714,10 +5744,10 @@ For a list of trademarks of The Linux Foundation, please see our <a href="https:
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.indexes", "navigation.expand"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.indexes", "navigation.expand"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
